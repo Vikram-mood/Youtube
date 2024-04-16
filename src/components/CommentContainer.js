@@ -8,9 +8,9 @@ import CommentSingleThread from './CommentSingleThread';
 import CommentList from './CommentList';
 
  const CommentContainer = () => {
-    console.log(commentsData);
+    // console.log(commentsData);
     return (
-        <div>
+        <div >
             <div className='font-bold text-2xl mb-2'>Comments: </div>
 
             {commentsData.map((comment,index)=> <Comment key={index} data={comment}/>)}
